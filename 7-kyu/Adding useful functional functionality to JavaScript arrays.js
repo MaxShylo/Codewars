@@ -1,6 +1,6 @@
 'use strict'
 
-// 
+// https://www.codewars.com/kata/adding-useful-functional-functionality-to-javascript-arrays/train/javascript
 
 Array.range = function (start, count) {
   const arr = [];
