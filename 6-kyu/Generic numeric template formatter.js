@@ -27,9 +27,3 @@ function numericFormatter(template, number = '1234567890') {
 
   return formated;
 }
-
-console.log(numericFormatter("xxx xxxxx xx", "5465253289")) // "546 52532 89"
-console.log(numericFormatter("xxx xxxxx xx")) // "123 45678 90"
-console.log(numericFormatter("+555 aaaa bbbb", "18031978")) // "+555 1803 1978"
-console.log(numericFormatter("+555 aaaa bbbb")) // "+555 1234 5678"
-console.log(numericFormatter("xxxx yyyy zzzz")) // "1234 5678 9012"
