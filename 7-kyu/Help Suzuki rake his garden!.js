@@ -11,7 +11,3 @@ function rakeGarden(garden) {
     return item;
   }).join(' ');
 }
-
-var garden1 = 'slug spider rock gravel gravel gravel gravel gravel gravel gravel';
-
-console.log(rakeGarden(garden1));
