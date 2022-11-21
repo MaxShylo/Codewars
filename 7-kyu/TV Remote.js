@@ -30,24 +30,3 @@ var tvRemote = function(word) {
 
   return count;
 }
-
-// c => a-b-c-OK = 3
-// o => c-d-e-j-o-OK = 5
-// d => o-j-e-d-OK = 4
-// e => d-e-OK = 2
-// w => e-j-o-t-y-x-w-OK = 7
-// a => w-r-m-h-c-b-a-OK = 7
-// r => a-f-k-p-q-r-OK = 6
-// s => r-s-OK = 2
-// Answer = 3 + 5 + 4 + 2 + 7 + 7 + 6 + 2 = 36
-
-
-
-console.log(tvRemote("codewars")) // 36
-console.log(tvRemote("does")) // 16
-console.log(tvRemote("your")) // 23
-console.log(tvRemote("solution")) // 33
-console.log(tvRemote("work")) // 20
-console.log(tvRemote("for")) // 12
-console.log(tvRemote("these")) // 27
-console.log(tvRemote("words")) // 25
